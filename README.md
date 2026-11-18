@@ -1,4 +1,4 @@
-﻿# DATAPILOT â€” AI-Assisted Data Analytics Platform
+﻿# DATAPILOT ” AI-Assisted Data Analytics Platform
 
 A complete, working B.Tech major project. Upload a dataset, profile it, clean it, explore it, run real
 statistical tests, ask questions in plain English, and download a PDF report.
