@@ -7,6 +7,7 @@
  */
 
 const TOKEN_KEY = 'datapilot_token'
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '')
 
 export function getToken(): string | null {
   return localStorage.getItem(TOKEN_KEY)
@@ -35,7 +36,7 @@ async function request<T>(
     headers.set('Content-Type', 'application/json')
   }
 
-  const response = await fetch(`/api${path}`, { ...options, headers })
+ const response = await fetch(`${API_BASE_URL}/api${path}`, { ...options, headers })
 
   if (!response.ok) {
     let detail = `Request failed (${response.status})`
