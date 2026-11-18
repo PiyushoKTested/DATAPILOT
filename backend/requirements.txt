@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.17.1
+scikit-learn==1.6.1
+SQLAlchemy==2.0.36
+pydantic[email]==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+PyJWT==2.10.1
+reportlab==4.2.5
+openpyxl==3.1.5
+matplotlib==3.10.0
+pyarrow==18.1.0
+httpx==0.28.1
+pytest==8.3.4

@@ -1,0 +1,11 @@
+x,y,z,group,category
+1,2,20,A,alpha
+2,4,19,A,beta
+3,6,18,A,alpha
+4,8,17,A,beta
+5,10,16,A,alpha
+6,12,15,B,beta
+7,14,14,B,alpha
+8,16,13,B,beta
+9,18,12,B,alpha
+10,20,11,B,beta

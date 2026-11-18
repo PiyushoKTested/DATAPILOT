@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Runtime data (database, parquet snapshots, generated reports)
+backend/data/
+backend/.env
+*.db
+*.db-wal
+*.db-shm
+
+# Node / frontend
+node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / backup artifacts
+*.log
+*.tar.gz
+*.zip
+
+# Local backup and TypeScript build artifacts
+*.bak
+*.tsbuildinfo
