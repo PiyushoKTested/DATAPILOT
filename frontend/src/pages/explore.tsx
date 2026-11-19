@@ -54,7 +54,7 @@ export function ExploreTab() {
     const payload: any = { chart_type: type, top_n: 12, bins: 20 }
     if (type === 'histogram') payload.x = overrides.x ?? x
     else if (type === 'bar') payload.x = overrides.x ?? x ?? groupBy
-    else if (type === 'pie') payload.x = overrides.x ?? groupBy
+    else if (type === 'pie') payload.x = overrides.x ?? x ?? groupBy
     else if (type === 'scatter') { payload.x = overrides.x ?? x; payload.y = overrides.y ?? y }
     else if (type === 'box') { payload.x = overrides.x ?? x; payload.group_by = overrides.group_by ?? (groupBy || undefined) }
     else if (type === 'line') { payload.x = overrides.x ?? (columns?.datetime[0] ?? ''); payload.y = overrides.y ?? (y || undefined) }
